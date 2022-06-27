@@ -1,0 +1,82 @@
+.Makinggrid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin-top: 10px;
+}
+
+body {
+    background-color: #e7e2df;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #009270;
+    border-color: #009270;
+}
+
+.page-link {
+    padding: 1.375rem 1.75rem;
+    color: #009270;
+}
+
+.slick-next {
+    right: 0px;
+}
+
+
+ul.paginationBttns {
+    display: grid;
+    grid-template-columns: 110px 40px 40px 40px 40px 40px 50px;
+    list-style-type: none;
+}
+
+li.previous{
+    border: 2px solid #009270;
+    background-color: #009270;
+    padding: 15px;
+}
+
+a.previousBttn {
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    color: #009270;
+    padding: 15px 25px 15px 25px;
+    border: 1px solid;
+    padding-left: 15px;
+}
+
+li.next {
+    border: 2px solid #009270;
+    background-color: #009270;
+    padding: 15px;
+}
+
+a.nextBttn {
+    color: #fff;
+    text-decoration: none;
+}
+
+li.next {
+    border: 2px solid #009270;
+    background-color: #009270;
+    padding: 15px;
+    width: 95px;
+}
+
+ul.paginationBttns {
+    margin: 30px 30px 30px 559px;
+}
